@@ -31,3 +31,7 @@
 - gradle01.txt : gradle 자바 프로젝트 만들기
 - gradle02.txt : gradle 컴파일하기
 - gradle03.txt : 이클립스 프로젝트로 만들기
+
+## coding_practice
+- 코딩 연습 문제 및 알고리즘 문제
+
