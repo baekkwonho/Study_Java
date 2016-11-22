@@ -12,6 +12,9 @@
 - practice08.java : 배열에서 이웃 값과의 차이(절대값)를 모두 더하여 출력하라.
 - practice09.java : 한 배열의 값을 다른 배열로 복사하라.
 - practice10.java : 한 배열의 값을 다른 배열로 역순으로 복사하라
+- practice11.java : 배열이 등비수열인지 여부를 확인한다.
+- practice12.java : 주어진 문자열의 알파벳의 개수를 센다.
+
 
 
 
