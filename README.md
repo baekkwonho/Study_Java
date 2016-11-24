@@ -65,6 +65,33 @@
 - Exam048.java : 형변환 - 명시적 형변환
 - Exam049.java : 형변환 - 명시적 형변환과 암시적 형변환의 결합
 
+## step05
+명령어의 흐름을 제어하는 조건문, 반복문의 사용법
+- Exam050.java : 명령어 흐름을 제어하는 문법 - 명령어들의 묶음(block)
+- Exam051.java : 명령어 흐름을 제어하는 문법 - 블록 안에 선언된 변수
+- Exam052.java : 명령어 흐름을 제어하는 문법 - 조건문 if
+- Exam053.java : 명령어 흐름을 제어하는 문법 - 조건문 if가 적용되는 범위
+- Exam054.java : 명령어 흐름을 제어하는 문법 - if 와 블록
+- Exam055.java : 명령어 흐름을 제어하는 문법 - if ~ else
+- Exam056.java : 명령어 흐름을 제어하는 문법 - if ~ else의 잘못된 사용
+- Exam057.java : 명령어 흐름을 제어하는 문법 - if ~ else와 블록
+- Exam058.java : 명령어 흐름을 제어하는 문법 - if ~ else if ~ else if ~ else(1)
+- Exam059.java : 명령어 흐름을 제어하는 문법 - if ~ else if ~ else if ~ else(2)
+- Exam060.java : 명령어 흐름을 제어하는 문법 - if ~ else if ~ else if ~ else(3)
+- Exam061.java : 명령어 흐름을 제어하는 문법 - else의 소속
+- Exam062.java : 명령어 흐름을 제어하는 문법 - switch 문
+- Exam063.java : 명령어 흐름을 제어하는 문법 - switch와 break
+- Exam064.java : 명령어 흐름을 제어하는 문법 - 반복문 while과 변수
+- Exam065.java : 명령어 흐름을 제어하는 문법 - 반복문 while과 변수
+- Exam066.java : 명령어 흐름을 제어하는 문법 - 반복문 while
+- Exam067.java : 명령어 흐름을 제어하는 문법 - 반복문 for
+- Exam068.java : 명령어 흐름을 제어하는 문법 - 반복문 for 응용
+- Exam069.java : 명령어 흐름을 제어하는 문법 - 반복문 for와 break
+- Exam070.java : 명령어 흐름을 제어하는 문법 - 중첩 반복문 탈출 1
+- Exam071.java : 명령어 흐름을 제어하는 문법 - 중첩 반복문 탈출 2
+- Exam072.java : 명령어 흐름을 제어하는 문법 - 반복문 for와 continue
+- Exam073.java : 명령어 흐름을 제어하는 문법 - 반복문 while과 break, continue
+
 
 
 ##gradle
