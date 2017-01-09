@@ -1,5 +1,16 @@
 # Study_Java
 
+##gradle
+- gradle01.gradle : plugin 사용
+- gradle02.gradle : 컴파일 옵션 지정하기
+- gradle03.gradle : 의존 라이브러리 사용
+- gradle01.txt : gradle 자바 프로젝트 만들기
+- gradle02.txt : gradle 컴파일하기
+- gradle03.txt : 이클립스 프로젝트로 만들기
+
+##coding_practice
+- 코딩 연습 문제 및 알고리즘 문제
+
 ##step01
 - Exam000.java : gradle 사용 -> 자세한 내용은 gradle폴더 확인
 - Exam001.java : 주석
@@ -92,17 +103,14 @@
 - Exam072.java : 명령어 흐름을 제어하는 문법 - 반복문 for와 continue
 - Exam073.java : 명령어 흐름을 제어하는 문법 - 반복문 while과 break, continue
 
+##step06
+- Exam074.java : 패키지를 사용하여 클래스 분류하기
+- Exam075.java : 리터럴 표현 - 정수 표현
+- Exam076.java : 리터럴 표현 - 부동소수점 표현
+- Exam077.java : 리터럴 표현 - 정수를 2진수, 8진수, 10진수, 16진수로 표현하기
+- Exam078.java : 리터럴 표현 - 구분자 underline(_) 를 사용하여 숫자를 나눠 표현하기
+- Exam079.java : 리터럴 표현 - 정수가 메모리에 저장되는 원리
+- Exam080.java : 리터럴 표현 - 부동소수점이 메모리에 저장되는 원리
+- Exam081.java : 리터럴 표현 - 문자 표현
 
-
-##gradle
-- gradle01.gradle : plugin 사용
-- gradle02.gradle : 컴파일 옵션 지정하기
-- gradle03.gradle : 의존 라이브러리 사용
-- gradle01.txt : gradle 자바 프로젝트 만들기
-- gradle02.txt : gradle 컴파일하기
-- gradle03.txt : 이클립스 프로젝트로 만들기
-
-
-##coding_practice
-- 코딩 연습 문제 및 알고리즘 문제
 
