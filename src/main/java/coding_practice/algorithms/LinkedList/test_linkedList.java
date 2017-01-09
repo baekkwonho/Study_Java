@@ -16,9 +16,6 @@ public class test_linkedList {
     linkedList.display();
     
     
-    for (int i = 0; i < linkedList.size(); i++) {
-      System.out.println(linkedList.get(i));
-    }
     
   }
 

@@ -86,7 +86,7 @@ public class linkedList {
   
   public void display() {
     Node currNode = head;
-    while (currNode != null && currNode != tail) {
+    while (currNode != tail) {
       System.out.printf("%d - ", currNode.value);
       currNode = currNode.next;
     }
