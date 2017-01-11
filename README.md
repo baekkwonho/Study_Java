@@ -123,3 +123,11 @@
 - Exam088.java : 변수 사용 - 사용자 정의 데이터 타입
 - Exam089.java : 변수 사용 - 자바에서 기본으로 제공하는(built-in) 복합 데이터 타입
 
+##step08
+- Exam090.java : 연산자 사용 - 비트 논리 연산자
+- Exam091.java : 연산자 사용 - 비트 논리 연산자 활용
+- Exam092.java : 연산자 사용 - 비트 이동 연산자
+- Exam093.java : 연산자 사용 - 비트 이동 연산자 활용 (직렬화 Serialize marshaling)
+- Exam094.java : 연산자 사용 - 비트 이동 연산자 활용2 (역직렬화 Deserialize Unmarshaling)
+
+
