@@ -1,33 +1,44 @@
 package coding_practice.practice;
 
-import java.util.Scanner;
-
 //연습용
 
 public class practice00 {
   
   public static void main(String[] args) {
     
-    Scanner keyScanner = new Scanner(System.in);
+    System.out.println(fibo(6));
+    System.out.println(fibonacci(6));
     
-    System.out.println("문자열을 입력해 주세요.");
-    char[] chars = keyScanner.nextLine().toUpperCase().toCharArray();
-    int[] counts = new int[26];
-    
-    for (int i = 0; i < counts.length; i++) {
-      counts[i] = 0;
+  }
+  
+  static int fibo(int n) {
+    if ( n < 1 || n > 10000000) {
+      return 0;
     }
     
-    for (int i = 0; i < chars.length; i++) {
-      counts[chars[i] - 'A']++;
+    if ( n == 1 || n == 2) {
+      return 1;
     }
     
-    for (int i = 0; i < counts.length; i++) {
-      if ( counts[i] <= 0)
-        continue;
-      
-      System.out.printf("%c: %d\n", (char)(i + 'A'), counts[i]);
+    return fibo(n-1) + fibo(n-2);
+  }
+  
+  static int fibonacci(int n) {
+    if ( n < 1 || n > 10000000) {
+      return 0;
     }
+    if (n == 1 || n == 2) {
+      return 1;
+    }
+    
+    int num1 = 1, num2 = 1, num3 = 0;
+    
+    for (int i = 3; i <= n; i++) {
+      num3 = num1 + num2;
+      num1 = num2;
+      num2 = num3;
+    }
+    return num3;
     
   }
 }

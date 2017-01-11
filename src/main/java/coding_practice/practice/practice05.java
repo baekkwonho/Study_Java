@@ -4,6 +4,7 @@ package coding_practice.practice;
  n의 범위 : 1 ~ 10,000,000
  f(1) = f(2) = 1
  f(n) = f(n-1) + f(n-2)
+ 0 1 1 2 3 5 8
  */
 public class practice05 {
   
