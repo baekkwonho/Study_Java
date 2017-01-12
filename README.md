@@ -130,4 +130,24 @@
 - Exam093.java : 연산자 사용 - 비트 이동 연산자 활용 (직렬화 Serialize marshaling)
 - Exam094.java : 연산자 사용 - 비트 이동 연산자 활용2 (역직렬화 Deserialize Unmarshaling)
 
+##step09
+- Exam095.java : 반복문 사용 - do ~ while
+- Exam096.java : 반복문 사용 - for ( : )
+
+##step10
+- Exam097.java : 사용자 정의 데이터 타입 다루기 - 새 데이터 타입 정의하기
+- Exam098.java : 사용자 정의 데이터 타입 다루기 - 사용자 정의 연산자(메서드) 추가하기
+- Exam099.java : 사용자 정의 데이터 타입 다루기 - 메서드 문법
+- Exam100.java : 사용자 정의 데이터 타입 다루기 - call by value, call by reference
+- Exam101.java : 사용자 정의 데이터 타입 다루기 - static 메서드
+- Exam102.java : 사용자 정의 데이터 타입 다루기 - 메서드들을 분류하는 문법 "클래스"
+  Array.java <= 배열과 관련된 기능을 모아둔 클래스
+- Exam103.java : 사용자 정의 데이터 타입 다루기 - static 변수  
+  Array2.java <= 배열을 저장할 static 변수를 선언
+- Exam104.java : 사용자 정의 데이터 타입 다루기 - static 변수의 한계
+- Exam105.java : 사용자 정의 데이터 타입 다루기 - static 변수의 한계 극복
+- Exam106.java : 사용자 정의 데이터 타입 다루기 - instance 변수
+  Array3.java <= instance 변수를 사용하여 배열을 개별적으로 관리
+- Exam036.java : 사용자 정의 데이터 타입 다루기 - instance 메서드
+  Array4.java <= instance 메서드를 사용하여 인스턴스 주소를 자동으로 받기
 
