@@ -148,6 +148,14 @@
 - Exam105.java : 사용자 정의 데이터 타입 다루기 - static 변수의 한계 극복
 - Exam106.java : 사용자 정의 데이터 타입 다루기 - instance 변수
   Array3.java <= instance 변수를 사용하여 배열을 개별적으로 관리
-- Exam036.java : 사용자 정의 데이터 타입 다루기 - instance 메서드
+- Exam107.java : 사용자 정의 데이터 타입 다루기 - instance 메서드
   Array4.java <= instance 메서드를 사용하여 인스턴스 주소를 자동으로 받기
+
+##step11
+- Exam108.java : JVM 메모리 영역 - 클래스 실행
+- Exam109.java : JVM 메모리 영역 - JVM이 관리하는 메모리 영역과 변수
+- Exam110.java : JVM 메모리 영역 - JVM이 관리하는 메모리 영역과 변수2
+- Exam111.java : JVM 메모리 영역 - 클래스 로딩 시점 확인1
+- Exam041.java : JVM 메모리 영역 - 클래스 로딩 시점 확인2
+  other1.java  <= Exam111,112 에서 외부 클래스 로딩
 

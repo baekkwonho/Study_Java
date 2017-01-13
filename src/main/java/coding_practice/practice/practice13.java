@@ -1,8 +1,13 @@
 package coding_practice.practice;
 
-//연습용
 
-public class practice00 {
+/*
+  factorial 함수를 만들어라.
+  1. 재귀함수 이용
+  2. 반복문 이용
+ */
+
+public class practice13 {
   
   public static void main(String[] args) {
     System.out.println(factorial(5));
