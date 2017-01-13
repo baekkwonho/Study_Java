@@ -156,6 +156,29 @@
 - Exam109.java : JVM 메모리 영역 - JVM이 관리하는 메모리 영역과 변수
 - Exam110.java : JVM 메모리 영역 - JVM이 관리하는 메모리 영역과 변수2
 - Exam111.java : JVM 메모리 영역 - 클래스 로딩 시점 확인1
-- Exam041.java : JVM 메모리 영역 - 클래스 로딩 시점 확인2
+- Exam112.java : JVM 메모리 영역 - 클래스 로딩 시점 확인2
   other1.java  <= Exam111,112 에서 외부 클래스 로딩
+  
+##step12
+- Exam113.java : 생성자 - 생성자 사용 전
+  Board.java
+- Exam114.java : 생성자 - 기본 생성자
+  Board2.java  
+- Exam115.java : 생성자 - 생성자 용도
+  Board3.java
+- Exam116.java : 생성자 - 파라미터가 있는 생성자
+  Board4.java
+- Exam117.java : 생성자 - this() => 생성자에서 다른 생성자를 호출하기
+  Board5.java  
+- Exam118.java : 생성자 - 기본 생성자가 없고 파라미터를 받는 생성자만 있는 경우
+  Board6.java  
+- Exam119.java : 기타 - 사용자로부터 키보드 입력 받기
+- Exam120.java : 기타 - 사용자로부터 키보드 입력 받기2
+                      - 패키지 클래스 사용법
+- Exam121.java : 기타 - import 사용법
+- Exam122.java : 기타 - import 사용법2
+- Exam123.java : 기타 - 사용자 입력과 객체 생성
+- Exam124.java : 배열과 인스턴스 - 레퍼런스 배열
+- Exam125.java : 배열과 인스턴스 - 레퍼런스 배열2
+
 
