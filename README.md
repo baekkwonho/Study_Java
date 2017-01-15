@@ -181,4 +181,39 @@
 - Exam124.java : 배열과 인스턴스 - 레퍼런스 배열
 - Exam125.java : 배열과 인스턴스 - 레퍼런스 배열2
 
+##step13
 
+###ex01
+- Exam126.java : 상속받은 클래스 사용하기.
+  User.java => 상위 클래스
+  Student.java => User클래스를 상속받은 클래스
+  Student2.java => Student클래스를 상속받은 클래스
+  
+###ex02
+- Exam127.java : 상속 - 인스턴스 변수 사용
+  Calculator.java => 인스턴스 변수 갖고 있는 클래스
+- Exam128.java : 삭속 - 인스턴스 메서드 사용
+  Calculator2.java => Calculator클래스를 상속받은 클래스
+
+###ex03
+- Exam129_*.java : 클래스 로딩
+  User.java, Student.java, Student2.java
+  
+###ex04
+- Exam130_1.java : 생성자 호출
+  Moter.java, Car.java, SUV.java
+- Exam130_2.java : 생성자 호출
+  MotorCycle.java, Trike.java
+
+###ex05
+- Exam131_*.java : 각종 초기화 블록 실행 순서
+  User.java, User2.java, Moter.java, Car.java, SUV.java
+
+###ex06
+- Exam132.java : 상속 - 인스턴스 생성과 초기화
+  SUV.java, Car.java, Moter.java
+- Exam133_*.java : 다형성 - 다형적 변수
+- Exam134_*.java : 오버라이딩
+  A.java, B.java, C.java => 상속 후 오버라이딩, super
+- Exam135_*.java : 오버로딩
+  Calc.java, Calc2.java, Calc3.java
