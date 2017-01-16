@@ -11,6 +11,17 @@
 ##coding_practice
 - 코딩 연습 문제 및 알고리즘 문제
 
+##designpatterns
+
+###factorymethod
+- Test01.java :factory method 적용 전
+  Car1.java
+- Test02.java : factory method 적용 후
+  Car2.java => factory method를 위한 method 추가
+- Test03.java : factory method 적용 후
+  Car3.java => 상수 이용
+  
+
 ##step01
 - Exam000.java : gradle 사용 -> 자세한 내용은 gradle폴더 확인
 - Exam001.java : 주석
@@ -217,3 +228,11 @@
   A.java, B.java, C.java => 상속 후 오버라이딩, super
 - Exam135_*.java : 오버로딩
   Calc.java, Calc2.java, Calc3.java
+  
+##step14
+- Exam136_*.java : Object 클래스,toString(), equals(), hashCode()
+  A.java, A2.java, A3.java, A4.java
+- Exam137_*.java : String 클래스
+- Exam138_*.java : StringBuffer 클래스
+- Exam139_*.java : Date 클래스, Calendar 이용, dateFormat 이용
+- Exam140_*.java : 랩퍼(Wrapper) 클래스, auto-boxing, auto-unboxing
