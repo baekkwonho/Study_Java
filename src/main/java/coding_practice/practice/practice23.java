@@ -31,9 +31,13 @@ public class practice23 {
 
   public static void main(String[] args) {
 
-    int arr[] = {1,4,1};
+    int arr[] = {3,4,4,6,1,4,4};
 
-    System.out.println(maxCounts(5, arr));
+    int[] arr2 = maxCounts(5, arr);
+    
+    for (int i = 0; i < arr2.length; i++) {
+      System.out.println(arr2[i]);
+    }
 
   }
 

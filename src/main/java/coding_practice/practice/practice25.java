@@ -1,7 +1,5 @@
 package coding_practice.practice;
 
-import java.util.Arrays;
-
 /*
  * 
    Passing Cars
