@@ -15,6 +15,28 @@
 - practice11.java : 배열이 등비수열인지 여부를 확인한다.
 - practice12.java : 주어진 문자열의 알파벳의 개수를 센다.
 - practice13.java : factorial 함수를 작성하여라.
+- practice14.java : Codility - binaryGap
+- practice15.java : Codility - CyclicRotation
+- practice16.java : Codility - OddOccurrencesInArray
+- practice17.java : Codility - FrogJmp
+- practice18.java : Codility - PermMissingElem
+- practice19.java : Codility - TapeEquilibrium
+- practice20.java : Codility - MissingInteger
+- practice21.java : Codility - FogRiverOne
+- practice22.java : Codility - PermCheck
+- practice23.java : Codility - MaxCounts
+- practice24.java : Codility - CountDiv
+- practice25.java : Codility - PassingCars
+- practice26.java : Codility - Distinct
+- practice27.java : Codility - MaxProductOfThree
+- practice28.java : Codility - Triangle
+- practice28.java : Codility - Nesting
+- practice29.java : Codility - Brackets
+- practice30.java : Codility - fish
+- practice31.java : Codility - TieRopes
+
+
+
 
 
 
