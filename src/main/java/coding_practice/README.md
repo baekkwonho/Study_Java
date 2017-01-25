@@ -34,6 +34,10 @@
 - practice29.java : Codility - Brackets
 - practice30.java : Codility - fish
 - practice31.java : Codility - TieRopes
+- practice32.java : 제곱근 갯수 구하기.
+- practice33.java : 규칙에 맞게 적용하여 문자 구하기.
+- practice34.java : 배열에 있는 값을 한번 바꾸어 오름차순이 되는지 확인하라.
+
 
 
 
