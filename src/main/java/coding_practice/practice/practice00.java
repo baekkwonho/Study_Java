@@ -6,22 +6,18 @@ public class practice00 {
   
   public static void main(String[] args) {
     
+    System.out.println(fibo(6));
+    
+    
   }
   
-  public static int solution(int K, int A[]) {
+  public static int fibo(int N) {
     
-    int count = 0;
-    int sum = 0;
-    
-    for (int i = 0; i < A.length; i++) {
-      sum += A[i];
-      if (sum >= K) {
-        count++;
-        sum = 0;
-      }
+    if (N == 1 || N == 2) {
+      return 1;
     }
     
-    return count;
+    return fibo(N-1) + fibo(N-2);
     
   
     
