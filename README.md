@@ -273,3 +273,8 @@
 ##step16
 - Exam155_*.java : 파일을 다루는 도구 - File 클래스 사용법
 - Exam156_*.java : 파일을 다루는 도구 - FileOutputStream/FileInputStream 사용법
+- Exam157_*.java : 파일을 다루는 도구 - FileWriter/FileReader 사용법
+- Exam158_*.java : 데이터 가공 스트림 클래스 사용법, transient 옵션의 사용법.
+  Board.java, Board2.java, Score.java, Score2.java
+  
+  
