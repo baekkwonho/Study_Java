@@ -276,5 +276,10 @@
 - Exam157_*.java : 파일을 다루는 도구 - FileWriter/FileReader 사용법
 - Exam158_*.java : 데이터 가공 스트림 클래스 사용법, transient 옵션의 사용법.
   Board.java, Board2.java, Score.java, Score2.java
-  
+
+##step17
+### exam01 : 캡슐화의 도입 배경
+### exam02 : 캡슐화 도입 장점
+### exam03 : 캡슐화 문법 정리 
+### exam04 : 캡슐화 사용법 확인!
   
