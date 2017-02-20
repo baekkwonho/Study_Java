@@ -40,13 +40,13 @@ public class practice25 {
   public static int passingCars(int[] A) {
     
     // 100% + 90% = 90%
-    int west = 0;
+    int eest = 0;
     int pair = 0;
     for (int i = 0; i < A.length; i++) {
         if (A[i] == 0) {
-            west++;
+            eest++;
         } else {
-            pair += west;
+            pair += eest;
         }
     }
     if (pair > 1000000000) {

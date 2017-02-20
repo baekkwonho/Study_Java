@@ -2,7 +2,7 @@ package coding_practice.practice;
 
 /*
   제곱근 갯수 구하기.
-  A >= B
+  A <= B
   A and B are integers
   
   ex> A = 4, B = 17 
