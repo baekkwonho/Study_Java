@@ -285,5 +285,8 @@
 
 ##step18
 ### exam01 : try ... catch ... 예외처리 사용법
+### exam02 : 스레드 사용법
+### exam03 : 동기화, 세마포어(Semaphore), 뮤텍스(Mutex), 크리티컬 세션(Critical Section)
+### exam04 : 리플랙션 API 사용법
 
   
