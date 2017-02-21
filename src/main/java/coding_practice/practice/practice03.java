@@ -23,7 +23,7 @@ public class practice03 {
       numbers[i] = Integer.parseInt(keyScanner.nextLine());
     }
     
-    int max = numbers[0];
+    int max = numbers[0]; 
     int min = numbers[0];
     
     for (int i = 1; i < numbers.length; i++) {

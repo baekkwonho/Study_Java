@@ -28,7 +28,6 @@ public class practice02 {
       num /= 10;
     }
     
-    
     System.out.println("짝수: "+ evenCount);
     System.out.println("홀수: "+ oddCount);
     

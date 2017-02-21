@@ -15,17 +15,18 @@ public class practice07 {
     System.out.print("밑변의 길이를 입력 하세요. ");
     int length = Integer.parseInt(keyScanner.nextLine());
     
-    if (length % 2 == 0) {
+    if (length % 2 == 0) { //밑변의 길이가 짝수 인 경우 홀수로 변경
       length++;
     }
-    int spaceCount = length / 2;
+    
+    int spaceCount = length / 2; //빈칸을 먼저 찍기 위한 변수 설정
     
     for (int i = 0; i < length; i += 2) {
-      for (int j = 0; j < spaceCount; j++) {
+      for (int j = 0; j < spaceCount; j++) { //빈칸 먼저 출력하기 위한 반복문
         System.out.print(" ");
       }
       spaceCount--;
-      for (int k = 0; k <= i; k++) {
+      for (int k = 0; k <= i; k++) { // 별을 출력하기 위한 반복문
         System.out.print("*");
       }
       System.out.println();

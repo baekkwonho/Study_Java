@@ -4,7 +4,17 @@ import java.util.Scanner;
 
 /*
  밑변의 길이를 숫자를 입력 받아 직각 삼각형과 직각역삼각형을 출력하라.
- 
+ *
+ **
+ ***
+ ****
+ *****
+ ======
+ *****
+ ****
+ ***
+ **
+ *
  */
 
 public class practice06 {
@@ -16,7 +26,7 @@ public class practice06 {
     
     for (int i = 0; i < length; i++) {
       for (int j = 0; j <= i; j++) {
-        System.out.print("*");        
+        System.out.print("*");
       }
       System.out.println();
     }

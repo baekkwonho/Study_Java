@@ -10,26 +10,30 @@ public class practice05 {
   
   public static void main(String[] args) {
     
-//    for (int i = 1; i <= 10; i++) {
-//      System.out.println(fibo(i));
-//    }
+    for (int i = 1; i <= 10; i++) {
+      System.out.println(fibo(i));
+    }
     
     System.out.println(fibonacci(10));
      
   }
   
+  //재귀함수를 이용한 fibonacci 메서드 구현
   public static int fibo(int n) {
     
+    //입력받은 n의 유효값 설정
     if ( n < 1 || n > 10000000) {
       return 0;
     }
+    
     if (n == 1 || n == 2) {
       return 1;
     }
     
-    return fibo(n-1) + fibo(n-2);
+    return fibo(n-1) + fibo(n-2); // 재귀호출
   }
   
+  //반복문을 이용하여 메서드 구현
   public static int fibonacci(int n) {
     
     if (n < 1 || n > 10000000) {

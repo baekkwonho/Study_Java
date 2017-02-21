@@ -1,76 +1,8 @@
 # coding_practice
 
 ## pracitce
-- practice00.java : 연습용
-- practice01.java : 0~9까지 숫자를 출력, 각 숫자가 홀수인지 짝수인지 출력한다.
-- practice02.java : 숫자를 입력받아서 홀수 개수와 짝수 개수를 센다.
-- practice03.java : 5개의 숫자를 입력 받아서 그 중 가장 큰 수와 가장 작은 수를 찾는다.
-- practice04.java : 입력받은 숫자 중에 컴퓨터에서 생성한 난수를 몇 개 포함하고 있는 지 세어라.
-- practice05.java : Fibonacci를 구하는 함수를 작성 하여라.
-- practice06.java : 밑변의 길이를 숫자를 입력 받아 직각 삼각형과 직각역삼각형을 출력하라.
-- practice07.java : 밑변의 길이를 숫자로 입력 받아 트리를 출력하라.
-- practice08.java : 배열에서 이웃 값과의 차이(절대값)를 모두 더하여 출력하라.
-- practice09.java : 한 배열의 값을 다른 배열로 복사하라.
-- practice10.java : 한 배열의 값을 다른 배열로 역순으로 복사하라
-- practice11.java : 배열이 등비수열인지 여부를 확인한다.
-- practice12.java : 주어진 문자열의 알파벳의 개수를 센다.
-- practice13.java : factorial 함수를 작성하여라.
-- practice14.java : Codility - binaryGap
-- practice15.java : Codility - CyclicRotation
-- practice16.java : Codility - OddOccurrencesInArray
-- practice17.java : Codility - FrogJmp
-- practice18.java : Codility - PermMissingElem
-- practice19.java : Codility - TapeEquilibrium
-- practice20.java : Codility - MissingInteger
-- practice21.java : Codility - FogRiverOne
-- practice22.java : Codility - PermCheck
-- practice23.java : Codility - MaxCounts
-- practice24.java : Codility - CountDiv
-- practice25.java : Codility - PassingCars
-- practice26.java : Codility - Distinct
-- practice27.java : Codility - MaxProductOfThree
-- practice28.java : Codility - Triangle
-- practice28.java : Codility - Nesting
-- practice29.java : Codility - Brackets
-- practice30.java : Codility - fish
-- practice31.java : Codility - TieRopes
-- practice32.java : 제곱근 갯수 구하기.
-- practice33.java : 규칙에 맞게 적용하여 문자 구하기.
-- practice34.java : 배열에 있는 값을 한번 바꾸어 오름차순이 되는지 확인하라.
-- practiec35.java : 주민등록번호 체크를 하여라.
-- practice36.java : 정수쌍 구하기.
-- practice37.java : 배열의 중심.
-- practice38.java : 9와 0
-- practice39.java : 주식투자
-
-
-
-
-
-
-
-
-
-
-
+- 코딩테스트 문제,알고리즘 문제
 
 ## algorithms
-  
-### LinkedList
-- linkedList.java : linkedList 구현
-- test_linedList.java : linkedList 테스트
-
-### sort
-#### bubblesort
-- BubbleSort.java : bubbleSort 구현 및 테스트
-
-#### insertsort
-- InsertSort.java : insertSort 구현 및 테스트
-
-#### quicksort
-- QuickSort.java : quickSort 구현
-- test_quicksort.java : quickSort 테스트
-
-#### selectionsort
-- SelectionSort.java : selectionSort 구현 및 테스트
+- LinkedList, BubbleSort, InsertSort, QuickSort, SelectionSort 구현 및 테스
 
