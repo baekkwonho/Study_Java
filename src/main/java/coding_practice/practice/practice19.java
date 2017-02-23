@@ -34,6 +34,7 @@ package coding_practice.practice;
   3회전(index[2]) -> | 6 - 7 | = 1 => index[1,2] 합에서 index[2,3,4]의 값의 합을 뺀다.
   4회전(index[3]) -> | 4 - 9 | = 7 => index[1,2] 합에서 index[2,3,4]의 값의 합을 뺀다.
   
+  나온 값 중 가장 작은 값이 1을 리턴한다.
 
 
  */
@@ -42,28 +43,28 @@ public class practice19 {
 
   public static void main(String[] args) {
 
-    int arr[] = {5,10,6,2,5,42,7,9};
-
+    int arr[] = {3,1,2,4,3};
+    
     System.out.println(tapeEquilibrium(arr));
 
   }
 
   public static int tapeEquilibrium(int[] arr) {
 
-    int min = Integer.MAX_VALUE;
-    int leftValue = 0;
-    int rightValue = 0;
+    int min = Integer.MAX_VALUE; // 최소값 초기화를 정수의 최대값으로 설정
+    int leftValue = 0; // 기준의 왼쪽 합을 담아둘 변수
+    int rightValue = 0; // 기준의 오른쪽 합을 담아둘 변수
     
-    for (int i = 0; i < arr.length; i++) {
+    for (int i = 0; i < arr.length; i++) { // 처음 전체값을 오른쪽 합에다 담아둔다.
         rightValue += arr[i];
     }
     
     for (int i = 0; i < arr.length - 1; i++) {
-        leftValue += arr[i];
-        rightValue -= arr[i];
+        leftValue += arr[i]; // 왼쪽 합에 해당 기준을 더한다
+        rightValue -= arr[i]; // 오른쪽 합에 기준을 뺀다
         
         if (Math.abs(leftValue - rightValue) < min) {
-            min = Math.abs(leftValue - rightValue);
+            min = Math.abs(leftValue - rightValue); // Math클래스의 abs메서드를 이용하여 최소값 계산
         }
     }
     

@@ -33,7 +33,7 @@ public class practice40 {
     
     
     // 더 길이가 큰 값으로 반복문 돌리기 위해 비교를 한다.
-    if ( (chars1.length - chars2.length) > (chars2.length - chars1.length)) {
+    if ( chars1.length > chars2.length) {
       len = chars1.length;
     } else {
       len = chars2.length;
@@ -51,8 +51,5 @@ public class practice40 {
     System.out.println(result);
     
   }
-  
-  
-  
   
 }
