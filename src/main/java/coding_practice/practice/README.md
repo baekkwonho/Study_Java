@@ -41,4 +41,6 @@
 - practice37.java : 배열의 중심.
 - practice38.java : 9와 0
 - practice39.java : 주식투자
+- practice40.java : 문자열 2개 조합하기
+
 
