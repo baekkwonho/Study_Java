@@ -1,24 +1,23 @@
 # Design Patterns
 
+## factorymethod
 
-##factorymethod
-- Test01.java :factory method 적용 전
-  Car1.java
-- Test02.java : factory method 적용 후
-  Car2.java => factory method를 위한 method 추가
-- Test03.java : factory method 적용 후
-  Car3.java => 상수 이용
+- 인스턴스 생성과정이 복잡할 경우, 개발자의 부담을 덜어주고자 인스턴스 생성과 관련된 코드를 메서드에 담아 제공한다.
+  그러면 개발자는 직접 new 명령을 사용하는 대신에, 인스턴스 생성 코드가 저장된 메서드를 호출함으로써 인스턴스를 얻을 수 있다.
+  메서드는 static 으로 정의 되어야 한다.
+- 객체를 생성하는 코드를 별도의 클래스/메서드로 분리함으로써 객체 생성 방식의 변화에 대비하는데 유용하다.
+  ex> Calendar 객체 생성 -> Calendar calendar = Calendar.getInstance();
 
-##iterator
-- step01.Test.java : iterator pattern 적용 전
-- step02.Test.java : iterator pattern 적용 후 사용하기
-  step02.AscIterator.java, step02.DescIterator.java, step02.EvenIterator.java, step02.OddIterator.java => hasNext(), next() 정의 클래스
-- step03.Test.java : iterator 클래스를 상속하여 만든 클래스 사용하기
-  step03.Iterator.java => hasNext() 와 next() 를 강제적으로 구현하게 하는 수퍼클래스
-  step03.AscIterator.java, step03.DescIterator.java, step03.EvenIterator.java, step03.OddIterator.java => iterator 서브 클래스로 hasNext(), next() 오버라이딩한 서브클래스
--step04.Test.java : iterator 추상 클래스를 상속하여 만든 클래스 사용하기
-  step04.Iterator.java => 추상 클래스와 추상메서드로 만든 수퍼클래스
-  step04.AscIterator.java, step04.DescIterator.java, step04.EvenIterator.java, step04.OddIterator.java => iterator 추상 클래스를 상속받아 hasNext()와 next()를 오버라이딩한 서클래스
-- step05.Test.java : 추상 클래스의 한계
-- step06.Test.java : 추상 클래스와 인터페이스 결합
 
+## iterator
+
+- 목록에서 값을 꺼내는 방법을 객체화 한 것. 객체화 되어 있어 코드의 재사용이 쉽고 유지보수가 좋다.
+- 꺼내는 방법에 상관 없이 일관된 프로그래밍을 할 수 있다.
+- hasNext()메서드와 next()메서드를 이용한다. 값이 있는지 확인 하고자 할 경우는 hasNext(), 그 값을 꺼내고 싶을 때는 next()를 사용한다.
+
+
+## observer
+
+- 어떤 객체에 대한 상태를 보고 받는 방법이다.
+- 보고를 받는 객체를 "Ovserver" 또는 "Listener"라고 한다.
+- 특정 상태에 대해 코드를 실행할 수도 있고, 실행하지 않을 수도 있는 구조 만들 수 있다.

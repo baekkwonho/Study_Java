@@ -42,5 +42,6 @@
 - practice38.java : 9와 0
 - practice39.java : 주식투자
 - practice40.java : 문자열 2개 조합하기
+- practice41.java : 문장을 입력받아 단어의 개수 구하기.
 
 
