@@ -10,7 +10,9 @@ public class test_linkedList {
     linkedList.add(300);
     linkedList.add(400);
     linkedList.add(500);
+    linkedList.display();
     linkedList.insert(4, 501);
+    linkedList.display();
     linkedList.remove(3);
     
     linkedList.display();

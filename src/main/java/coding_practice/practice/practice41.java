@@ -47,7 +47,7 @@ public class practice41 {
     
     System.out.printf("단어 개수: %d", count);
     
-    
+    keyScanner.close();
   }
   
 }
