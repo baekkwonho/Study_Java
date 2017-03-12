@@ -43,5 +43,7 @@
 - practice39.java : 주식투자
 - practice40.java : 문자열 2개 조합하기
 - practice41.java : 문장을 입력받아 단어의 개수 구하기.
+- practice42.java : 중복을 제거하여 같은 이름 찾기.
+- practice43.java : 0과 1로 이루어진 문자를 규칙에 맞게 이루어져있는지 확인하기.
 
 
